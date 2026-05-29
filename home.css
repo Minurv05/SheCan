@@ -1,0 +1,473 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header-logo {
+    background-color: rgb(251, 96, 44);
+    display: flex;
+}
+
+.header-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.header-content {
+
+    position: relative;
+    left: 260px;
+}
+
+.home-header{
+     position: fixed;
+     top:0;
+     z-index: 1;
+     width:100%;
+}
+.home-header td {
+    padding: 0px 90px 0px 90px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+   
+}
+.home-header td:hover{
+    color:black;
+    transition: ease-out 1s;
+    
+}
+
+
+.hero-section {
+    height: 80vh;
+    display: flex;
+    gap:50px
+}
+
+.hero-content {
+    width: 65%;
+}
+.hero-content h1{
+        font-size: 75px;
+    padding: 24px 0px 10px 20px;
+}
+
+.hero-content h1 b{
+    color:red
+}
+.hero-content p{
+        font-size: 20px;
+    padding: 0px 8px 8px 24px;
+    line-height: 1.8;
+}
+
+.hero-image {
+    width: 35%;
+    overflow: hidden;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+ 
+}
+
+.hero-image img {
+    height: 80vh;
+
+
+
+}
+
+.hero-content button{
+   position: relative;
+   left:20px;
+}
+.join-us{
+    height: 50px;
+    width:120px;
+    border-radius: 10px;
+    border:1px grey;
+    background-color: black;
+    color: beige;
+    
+    
+}
+
+.join-us:hover{
+    transform: scale(1.1);
+}
+
+.main-content{
+    margin-top: 101px;
+}
+
+.donate-section {
+    background-color: rgb(247, 195, 107);
+    position: absolute;
+    height: 25vh;
+    width: 90%;
+    left: 65px;
+    bottom: -75px;
+    border-radius: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    box-shadow: 1px 1px 3px #fe4f4f;
+}
+.donate-content h1{
+    text-align: center;
+    padding: 10px;
+}
+.donate-content p{
+    line-height: 1.5;
+}
+.donate-section table{
+   margin: 10px;
+}
+.donate-section td{
+    padding: 15px;
+    width:80px;
+    border: 1px grey solid;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 18px;
+    position: relative;
+    left:50px;
+    text-align: center;
+}
+
+.donate-button{
+        height: 40px;
+    width:100px;
+    border-radius: 20px;
+    border:1px grey;
+    background-color:rgb(251, 96, 44);
+    color: beige;
+}
+
+.donate-button:hover{
+    transform: scale(1.1);
+}
+.input-donate input{
+    border-radius: 30px;
+    border: none;
+   height: 20px;
+    width: 400px;
+    padding: 10px;
+}
+.about-content {
+    height: 100vh;
+    
+    display: flex;
+    padding-top: 100px;
+}
+
+.about {
+    width: 45%;
+   
+}
+
+.about h1 {
+    padding: 12px 0px 12px 24px;
+}
+
+.about-hr{
+width:200px;
+height:1px;
+background-color: orangered;
+position: relative;
+left:24px
+}
+
+.about p {
+    font-size: 18px;
+    padding: 15px 10px 15px 50px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.about-image {
+    width: 55%;
+    display: flex;
+    
+}
+.image1{
+    height:55%;
+    width:50%;
+    
+position: relative;
+    left: 35px;
+    top: 28px;
+        transform: rotate(-10deg);
+}
+.image2{
+    height:55%;
+    width:50%;
+   
+        position: relative;
+       top: 50px;
+    transform: rotate(3deg);
+}
+
+.image3{
+    height:55%;
+    width:50%;
+    
+    position: relative;
+    top: 30px;
+    right: 40px;
+    transform: rotate(22deg);    
+}
+
+.image1 img{
+     height:100%;
+    width:100%;
+     object-fit: contain;
+        overflow: hidden;
+}
+.image2 img{
+     height:100%;
+    width:100%;
+     object-fit: contain;
+        overflow: hidden;
+}
+.image3 img{
+     height:100%;
+    width:100%;
+     object-fit: contain;
+        overflow: hidden;
+}
+.circles{
+   position:absolute;
+   bottom:-780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:100%;
+     height:45vh;
+   
+}
+
+.circle1{
+    width:18%;
+     height:45vh;
+    border-radius: 50%;
+    background-color: rgb(246, 205, 130,0.9);
+    position: relative;
+    left: 20px;
+    top:20px;
+    transform: rotate(-12deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.circle2{
+    width:18%;
+     height:45vh;
+    border-radius: 50%;
+    background-color: rgb(235, 72, 36,0.9);
+    transform: rotate(10deg);
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle3{
+    width:18%;
+     height:45vh;
+    border-radius: 50%;
+        position: relative;
+    top: 20px;
+    transform: rotate(-12deg);
+    background-color: rgb(243, 4, 4,0.9);
+    right: 14px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle4{
+    width:18%;
+     height:45vh;
+    border-radius: 50%;
+    background-color: rgb(219, 2, 2,0.9);
+     transform: rotate(10deg);
+     position: relative;
+        right: 32px;
+    top: 16px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle1 p{
+     padding: 25px;
+     text-align: justify;
+     color:beige;
+     font-size: 14px;
+     
+}
+
+.circle2 p{
+     padding: 25px;
+     text-align: justify;
+     color:beige;
+     font-size: 14px;
+}
+.circle3 p{
+     padding: 25px;
+     text-align: justify;
+      color:beige;
+      font-size: 14px;
+}
+.circle4 p{
+     padding: 25px;
+     text-align: justify;
+      color:beige;
+      font-size: 14px;
+}
+
+.circle1 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px grey;
+}
+.circle2 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px grey;
+}
+.circle3 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px grey;
+}
+.circle4 h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px grey;
+}
+
+.more{
+    height:50px;
+    width:100px;
+    border-radius: 50%;
+    border:none;
+    background-color: black;
+    color:beige;
+    text-align: center;
+    box-shadow: 1px 1px 1px grey;
+    
+
+}
+
+.more:hover{
+    transform: scale(1.1);
+}
+.volunter-content {
+    height: 80vh;
+    display: flex;
+   gap:100px;
+   background-color: rgb(251, 251, 232);
+
+  justify-content: center;
+}
+
+.mission{
+    padding-top: 110px;
+    width:40%;
+    
+}
+.mv-hr{
+ 
+    background-color: orangered;
+    height: 350px;
+    width: 1px;
+    position: relative;
+    top: 80px;
+
+}
+.mission h1{
+   padding: 20px;
+}
+
+.vision h1{
+   padding: 20px;
+}
+.mission p{
+    line-height: 1.8;
+    text-align: justify;
+
+}
+
+.vision{
+    padding-top: 110px;
+    width:40%;
+    
+}
+.vision p{
+    line-height: 1.8;
+    text-align: justify;
+
+}
+
+.home-footer {
+    height: 30vh;
+    /* padding: 20px; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:720px
+    
+}
+
+.social{
+    flex-direction: column;
+}
+.social i{
+    color:rgb(251, 96, 44);
+    padding: 10px;
+    font-size: 25px;
+
+}
+.contact{
+  
+}
+.contact p{
+    line-height: 1.8;
+    text-align: justify;
+    border:1px 1px #fe4f4f;
+}
+.num{
+    border:1px #fe4f4f solid;
+    padding: 10px;
+    margin:10px
+}
+.copyright p{
+    font-size: 14px;
+    color: grey;
+}
+
+.mail{
+    border:1px #fe4f4f solid;
+    padding: 10px;
+     margin:10px
+}
+.home-footer img{
+    height:80px;
+    width:80px;
+   
+}
